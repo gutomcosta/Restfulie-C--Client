@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="6be6c259-12f2-4621-927c-7a13a5c32ec3" name="Luiz@ZEMENINO 2009-12-23 10:52:55" runUser="ZEMENINO\Luiz" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="456d97a2-9272-4fad-aa33-68743b47866c">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Luiz_ZEMENINO 2009-12-23 10_52_55">
+      <DeploymentItem filename="C:\Documents and Settings\Luiz\Meus documentos\Luiz\projetos\dotNet\RestfulieClient\restfulie-dotNet\RestfulieClient\RestfulieClient\RestfuliClientTests\bin\Debug\Rhino.Mocks.dll" />
+      <DeploymentItem filename="C:\Documents and Settings\Luiz\Meus documentos\Luiz\projetos\dotNet\RestfulieClient\restfulie-dotNet\RestfulieClient\RestfulieClient\RestfulieClient\bin\Debug\RestfulieClient.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2009-12-23T10:52:55.8593750-02:00" queuing="2009-12-23T10:52:56.1562500-02:00" start="2009-12-23T10:52:56.2031250-02:00" finish="2009-12-23T10:52:56.8750000-02:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="ShouldSendAPOSTIfTheStateTransitionNameIsUpdate" storage="c:\documents and settings\luiz\meus documentos\luiz\projetos\dotnet\restfulieclient\restfulie-dotnet\restfulieclient\restfulieclient\restfuliclienttests\bin\debug\restfuliclienttests.dll" id="cbc2773b-0c0c-0ab1-2b27-d03d43cf5ba5">
+      <Execution id="d7dded12-dcb5-46ee-bbd0-a7b69cffa28f" />
+      <TestMethod codeBase="C:/Documents and Settings/Luiz/Meus documentos/Luiz/projetos/dotNet/RestfulieClient/restfulie-dotNet/RestfulieClient/RestfulieClient/RestfuliClientTests/bin/Debug/RestfuliClientTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RestfuliClientTests.RestfulieHttpVerbDiscoveryTest, RestfuliClientTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ShouldSendAPOSTIfTheStateTransitionNameIsUpdate" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="cbc2773b-0c0c-0ab1-2b27-d03d43cf5ba5" executionId="d7dded12-dcb5-46ee-bbd0-a7b69cffa28f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="d7dded12-dcb5-46ee-bbd0-a7b69cffa28f" testId="cbc2773b-0c0c-0ab1-2b27-d03d43cf5ba5" testName="ShouldSendAPOSTIfTheStateTransitionNameIsUpdate" computerName="ZEMENINO" duration="00:00:00.0124186" startTime="2009-12-23T10:52:56.2343750-02:00" endTime="2009-12-23T10:52:56.8593750-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d7dded12-dcb5-46ee-bbd0-a7b69cffa28f">
+    </UnitTestResult>
+  </Results>
+</TestRun>

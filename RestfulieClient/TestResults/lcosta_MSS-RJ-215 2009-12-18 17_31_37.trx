@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="67d18829-170a-478f-bdd1-066ba018e996" name="lcosta@MSS-RJ-215 2009-12-18 17:31:37" runUser="MSS\lcosta" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="456d97a2-9272-4fad-aa33-68743b47866c">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment userDeploymentRoot="D:\Luiz\projetos\restfulie-dotNet\RestfulieClient\RestfulieClient\TestResults" useDefaultDeploymentRoot="false" enabled="false" runDeploymentRoot="lcosta_MSS-RJ-215 2009-12-18 17_31_37">
+      <DeploymentItem filename="D:\Luiz\projetos\restfulie-dotNet\RestfulieClient\RestfulieClient\RestfuliClientTests\bin\Debug\Rhino.Mocks.dll" />
+      <DeploymentItem filename="D:\Luiz\projetos\restfulie-dotNet\RestfulieClient\RestfulieClient\RestfulieClient\bin\Debug\RestfulieClient.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2009-12-18T17:31:37.0196098-02:00" queuing="2009-12-18T17:31:38.3836098-02:00" start="2009-12-18T17:31:38.5576098-02:00" finish="2009-12-18T17:32:31.3136098-02:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="ShouldBePossibleToLoadAXmlByTheyDynamicObject" storage="d:\luiz\projetos\restfulie-dotnet\restfulieclient\restfulieclient\restfuliclienttests\bin\debug\restfuliclienttests.dll" id="d0323cf5-0177-9eb9-b002-fddc1f554fb9">
+      <Execution id="df590761-2ba3-4e2e-a614-d17ad166b938" />
+      <TestMethod codeBase="D:/Luiz/projetos/restfulie-dotNet/RestfulieClient/RestfulieClient/RestfuliClientTests/bin/Debug/RestfuliClientTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RestfuliClientTests.DynamicXmlResourceTest, RestfuliClientTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ShouldBePossibleToLoadAXmlByTheyDynamicObject" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="d0323cf5-0177-9eb9-b002-fddc1f554fb9" executionId="df590761-2ba3-4e2e-a614-d17ad166b938" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="df590761-2ba3-4e2e-a614-d17ad166b938" testId="d0323cf5-0177-9eb9-b002-fddc1f554fb9" testName="ShouldBePossibleToLoadAXmlByTheyDynamicObject" computerName="MSS-RJ-215" duration="00:00:51.1620165" startTime="2009-12-18T17:31:38.7296098-02:00" endTime="2009-12-18T17:32:31.2286098-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="df590761-2ba3-4e2e-a614-d17ad166b938">
+    </UnitTestResult>
+  </Results>
+</TestRun>

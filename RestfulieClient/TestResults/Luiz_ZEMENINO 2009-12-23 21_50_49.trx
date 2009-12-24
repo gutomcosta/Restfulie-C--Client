@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="e8839fa8-4bf5-4fd5-9dd5-54bc742ef714" name="Luiz@ZEMENINO 2009-12-23 21:50:49" runUser="ZEMENINO\Luiz" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="456d97a2-9272-4fad-aa33-68743b47866c">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Luiz_ZEMENINO 2009-12-23 21_50_49">
+      <DeploymentItem filename="C:\Documents and Settings\Luiz\Meus documentos\Luiz\projetos\dotNet\RestfulieClient\restfulie-dotNet\RestfulieClient\RestfulieClient\RestfuliClientTests\bin\Debug\Rhino.Mocks.dll" />
+      <DeploymentItem filename="C:\Documents and Settings\Luiz\Meus documentos\Luiz\projetos\dotNet\RestfulieClient\restfulie-dotNet\RestfulieClient\RestfulieClient\RestfulieClient\bin\Debug\RestfulieClient.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2009-12-23T21:50:49.4687500-02:00" queuing="2009-12-23T21:50:49.5312500-02:00" start="2009-12-23T21:50:49.5468750-02:00" finish="2009-12-23T21:50:50.4843750-02:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="8" executed="8" passed="8" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="ShouldBePossibleToExecuteDynamicMethodsInResource" storage="c:\documents and settings\luiz\meus documentos\luiz\projetos\dotnet\restfulieclient\restfulie-dotnet\restfulieclient\restfulieclient\restfuliclienttests\bin\debug\restfuliclienttests.dll" id="9db7e05b-f371-1508-4150-883face9ffc6">
+      <Execution id="f57cc5b4-ab2c-47c8-bb84-f8932f1110ce" />
+      <TestMethod codeBase="C:/Documents and Settings/Luiz/Meus documentos/Luiz/projetos/dotNet/RestfulieClient/restfulie-dotNet/RestfulieClient/RestfulieClient/RestfuliClientTests/bin/Debug/RestfuliClientTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RestfuliClientTests.DynamicXmlResourceTest, RestfuliClientTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ShouldBePossibleToExecuteDynamicMethodsInResource" />
+    </UnitTest>
+    <UnitTest name="ShouldBeSendAGetForSomeTransitionNameThatIsNotSupported" storage="c:\documents and settings\luiz\meus documentos\luiz\projetos\dotnet\restfulieclient\restfulie-dotnet\restfulieclient\restfulieclient\restfuliclienttests\bin\debug\restfuliclienttests.dll" id="50d0f768-5def-b475-3350-01dc843a4446">
+      <Execution id="7b4b323a-82f7-4855-a6df-ef5dc5fb9e20" />
+      <TestMethod codeBase="C:/Documents and Settings/Luiz/Meus documentos/Luiz/projetos/dotNet/RestfulieClient/restfulie-dotNet/RestfulieClient/RestfulieClient/RestfuliClientTests/bin/Debug/RestfuliClientTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RestfuliClientTests.RestfulieHttpVerbDiscoveryTest, RestfuliClientTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ShouldBeSendAGetForSomeTransitionNameThatIsNotSupported" />
+    </UnitTest>
+    <UnitTest name="ShouldSendAPOSTIfTheStateTransitionNameIsUpdate" storage="c:\documents and settings\luiz\meus documentos\luiz\projetos\dotnet\restfulieclient\restfulie-dotnet\restfulieclient\restfulieclient\restfuliclienttests\bin\debug\restfuliclienttests.dll" id="cbc2773b-0c0c-0ab1-2b27-d03d43cf5ba5">
+      <Execution id="1b53b034-755e-49f2-aae5-1a3cbf2304ee" />
+      <TestMethod codeBase="C:/Documents and Settings/Luiz/Meus documentos/Luiz/projetos/dotNet/RestfulieClient/restfulie-dotNet/RestfulieClient/RestfulieClient/RestfuliClientTests/bin/Debug/RestfuliClientTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RestfuliClientTests.RestfulieHttpVerbDiscoveryTest, RestfuliClientTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ShouldSendAPOSTIfTheStateTransitionNameIsUpdate" />
+    </UnitTest>
+    <UnitTest name="LearningToReadAAtomLinkInXml" storage="c:\documents and settings\luiz\meus documentos\luiz\projetos\dotnet\restfulieclient\restfulie-dotnet\restfulieclient\restfulieclient\restfuliclienttests\bin\debug\restfuliclienttests.dll" id="f259dcfd-b0fc-ff4d-e19a-3f823d4cb031">
+      <Execution id="72d10f21-817b-48d3-bb55-f6bdaae3014e" />
+      <TestMethod codeBase="C:/Documents and Settings/Luiz/Meus documentos/Luiz/projetos/dotNet/RestfulieClient/restfulie-dotNet/RestfulieClient/RestfulieClient/RestfuliClientTests/bin/Debug/RestfuliClientTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RestfuliClientTests.DynamicXmlResourceTest, RestfuliClientTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LearningToReadAAtomLinkInXml" />
+    </UnitTest>
+    <UnitTest name="ShoudBePossibleToLoadAResourceFromXml" storage="c:\documents and settings\luiz\meus documentos\luiz\projetos\dotnet\restfulieclient\restfulie-dotnet\restfulieclient\restfulieclient\restfuliclienttests\bin\debug\restfuliclienttests.dll" id="d67ac6a1-a5b7-23ec-7045-9e2ae068fef8">
+      <Execution id="77fe6c62-f22c-40a2-b418-f490fb50a6a8" />
+      <TestMethod codeBase="C:/Documents and Settings/Luiz/Meus documentos/Luiz/projetos/dotNet/RestfulieClient/restfulie-dotNet/RestfulieClient/RestfulieClient/RestfuliClientTests/bin/Debug/RestfuliClientTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RestfuliClientTests.ResourceServiceTest, RestfuliClientTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ShoudBePossibleToLoadAResourceFromXml" />
+    </UnitTest>
+    <UnitTest name="ShouldSendADELETEIfTheStateTransitionNameIsCancelDestroyOrDelete" storage="c:\documents and settings\luiz\meus documentos\luiz\projetos\dotnet\restfulieclient\restfulie-dotnet\restfulieclient\restfulieclient\restfuliclienttests\bin\debug\restfuliclienttests.dll" id="a63ebef4-e52e-1b48-622f-e24b44b4cf1a">
+      <Execution id="44880549-0466-46d1-a690-d1fc388093e0" />
+      <TestMethod codeBase="C:/Documents and Settings/Luiz/Meus documentos/Luiz/projetos/dotNet/RestfulieClient/restfulie-dotNet/RestfulieClient/RestfulieClient/RestfuliClientTests/bin/Debug/RestfuliClientTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RestfuliClientTests.RestfulieHttpVerbDiscoveryTest, RestfuliClientTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ShouldSendADELETEIfTheStateTransitionNameIsCancelDestroyOrDelete" />
+    </UnitTest>
+    <UnitTest name="ShouldBeSendAGetIfTheStateTransitionNameIsRefreshReloadShowOrLatest" storage="c:\documents and settings\luiz\meus documentos\luiz\projetos\dotnet\restfulieclient\restfulie-dotnet\restfulieclient\restfulieclient\restfuliclienttests\bin\debug\restfuliclienttests.dll" id="77dd7c9e-87fe-f72c-f081-25ec26cecca2">
+      <Execution id="e655b8d6-34d9-455f-8fa8-608a6de3432c" />
+      <TestMethod codeBase="C:/Documents and Settings/Luiz/Meus documentos/Luiz/projetos/dotNet/RestfulieClient/restfulie-dotNet/RestfulieClient/RestfulieClient/RestfuliClientTests/bin/Debug/RestfuliClientTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RestfuliClientTests.RestfulieHttpVerbDiscoveryTest, RestfuliClientTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ShouldBeSendAGetIfTheStateTransitionNameIsRefreshReloadShowOrLatest" />
+    </UnitTest>
+    <UnitTest name="ShouldBePossibleToLoadAXmlByTheyDynamicObject" storage="c:\documents and settings\luiz\meus documentos\luiz\projetos\dotnet\restfulieclient\restfulie-dotnet\restfulieclient\restfulieclient\restfuliclienttests\bin\debug\restfuliclienttests.dll" id="d0323cf5-0177-9eb9-b002-fddc1f554fb9">
+      <Execution id="d90921c5-50e6-492b-ac9a-aa2a36440cf6" />
+      <TestMethod codeBase="C:/Documents and Settings/Luiz/Meus documentos/Luiz/projetos/dotNet/RestfulieClient/restfulie-dotNet/RestfulieClient/RestfulieClient/RestfuliClientTests/bin/Debug/RestfuliClientTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RestfuliClientTests.DynamicXmlResourceTest, RestfuliClientTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ShouldBePossibleToLoadAXmlByTheyDynamicObject" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="50d0f768-5def-b475-3350-01dc843a4446" executionId="7b4b323a-82f7-4855-a6df-ef5dc5fb9e20" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="77dd7c9e-87fe-f72c-f081-25ec26cecca2" executionId="e655b8d6-34d9-455f-8fa8-608a6de3432c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9db7e05b-f371-1508-4150-883face9ffc6" executionId="f57cc5b4-ab2c-47c8-bb84-f8932f1110ce" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a63ebef4-e52e-1b48-622f-e24b44b4cf1a" executionId="44880549-0466-46d1-a690-d1fc388093e0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cbc2773b-0c0c-0ab1-2b27-d03d43cf5ba5" executionId="1b53b034-755e-49f2-aae5-1a3cbf2304ee" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d0323cf5-0177-9eb9-b002-fddc1f554fb9" executionId="d90921c5-50e6-492b-ac9a-aa2a36440cf6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d67ac6a1-a5b7-23ec-7045-9e2ae068fef8" executionId="77fe6c62-f22c-40a2-b418-f490fb50a6a8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f259dcfd-b0fc-ff4d-e19a-3f823d4cb031" executionId="72d10f21-817b-48d3-bb55-f6bdaae3014e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="7b4b323a-82f7-4855-a6df-ef5dc5fb9e20" testId="50d0f768-5def-b475-3350-01dc843a4446" testName="ShouldBeSendAGetForSomeTransitionNameThatIsNotSupported" computerName="ZEMENINO" duration="00:00:00.0120931" startTime="2009-12-23T21:50:49.5468750-02:00" endTime="2009-12-23T21:50:50.1093750-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7b4b323a-82f7-4855-a6df-ef5dc5fb9e20">
+    </UnitTestResult>
+    <UnitTestResult executionId="e655b8d6-34d9-455f-8fa8-608a6de3432c" testId="77dd7c9e-87fe-f72c-f081-25ec26cecca2" testName="ShouldBeSendAGetIfTheStateTransitionNameIsRefreshReloadShowOrLatest" computerName="ZEMENINO" duration="00:00:00.0005493" startTime="2009-12-23T21:50:50.1250000-02:00" endTime="2009-12-23T21:50:50.1250000-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e655b8d6-34d9-455f-8fa8-608a6de3432c">
+    </UnitTestResult>
+    <UnitTestResult executionId="f57cc5b4-ab2c-47c8-bb84-f8932f1110ce" testId="9db7e05b-f371-1508-4150-883face9ffc6" testName="ShouldBePossibleToExecuteDynamicMethodsInResource" computerName="ZEMENINO" duration="00:00:00.2880025" startTime="2009-12-23T21:50:50.1250000-02:00" endTime="2009-12-23T21:50:50.4218750-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f57cc5b4-ab2c-47c8-bb84-f8932f1110ce">
+    </UnitTestResult>
+    <UnitTestResult executionId="44880549-0466-46d1-a690-d1fc388093e0" testId="a63ebef4-e52e-1b48-622f-e24b44b4cf1a" testName="ShouldSendADELETEIfTheStateTransitionNameIsCancelDestroyOrDelete" computerName="ZEMENINO" duration="00:00:00.0004972" startTime="2009-12-23T21:50:50.4218750-02:00" endTime="2009-12-23T21:50:50.4218750-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="44880549-0466-46d1-a690-d1fc388093e0">
+    </UnitTestResult>
+    <UnitTestResult executionId="1b53b034-755e-49f2-aae5-1a3cbf2304ee" testId="cbc2773b-0c0c-0ab1-2b27-d03d43cf5ba5" testName="ShouldSendAPOSTIfTheStateTransitionNameIsUpdate" computerName="ZEMENINO" duration="00:00:00.0002194" startTime="2009-12-23T21:50:50.4218750-02:00" endTime="2009-12-23T21:50:50.4218750-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1b53b034-755e-49f2-aae5-1a3cbf2304ee">
+    </UnitTestResult>
+    <UnitTestResult executionId="d90921c5-50e6-492b-ac9a-aa2a36440cf6" testId="d0323cf5-0177-9eb9-b002-fddc1f554fb9" testName="ShouldBePossibleToLoadAXmlByTheyDynamicObject" computerName="ZEMENINO" duration="00:00:00.0056702" startTime="2009-12-23T21:50:50.4218750-02:00" endTime="2009-12-23T21:50:50.4375000-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d90921c5-50e6-492b-ac9a-aa2a36440cf6">
+    </UnitTestResult>
+    <UnitTestResult executionId="77fe6c62-f22c-40a2-b418-f490fb50a6a8" testId="d67ac6a1-a5b7-23ec-7045-9e2ae068fef8" testName="ShoudBePossibleToLoadAResourceFromXml" computerName="ZEMENINO" duration="00:00:00.0064083" startTime="2009-12-23T21:50:50.4375000-02:00" endTime="2009-12-23T21:50:50.4531250-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="77fe6c62-f22c-40a2-b418-f490fb50a6a8">
+    </UnitTestResult>
+    <UnitTestResult executionId="72d10f21-817b-48d3-bb55-f6bdaae3014e" testId="f259dcfd-b0fc-ff4d-e19a-3f823d4cb031" testName="LearningToReadAAtomLinkInXml" computerName="ZEMENINO" duration="00:00:00.0029542" startTime="2009-12-23T21:50:50.4531250-02:00" endTime="2009-12-23T21:50:50.4531250-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="72d10f21-817b-48d3-bb55-f6bdaae3014e">
+    </UnitTestResult>
+  </Results>
+</TestRun>
