@@ -1,0 +1,7 @@
+Segue algumas coisas que vejo que precisam ser feitas no client;
+
+1 - fazer a alteração na api para utilização de uma fluent interface, vou utilizar usa sugestão(EntryPoint.at(uri).get()).
+2 - é necessário fazer a atualizçao dos dados do recurso no servidor. Ex
+      dynamic order = EntryPoint.at("www.caelum.com.br/orders/1.xml").get();
+      order.Date = "30-12-2009 11:30";
+      order.update();
